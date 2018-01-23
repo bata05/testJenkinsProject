@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.cio.cloud.billing</groupId>
+  <artifactId>auto-billrun-checklist</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>autoprecheck</name>
+  <description>This project is for the automation of the Billing Run pre-checklist item</description>
+  <properties>
+  	<jdk.version>1.8</jdk.version>
+  	<db2.driver.version>10.5.8</db2.driver.version>
+  	<spring.version>3.9.2.RELEASE</spring.version>
+  	<junit.version>4.12</junit.version>
+  	<jdt.version>3.7.1</jdt.version>
+  	<log4j.version>1.2.14</log4j.version>
+  	<spring.core.version>5.0.2.RELEASE</spring.core.version>
+  </properties>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>${spring.core.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-jdbc</artifactId>
+  		<version>${spring.core.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-test</artifactId>
+  		<version>${spring.core.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>${junit.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.eclipse.jdt</groupId>
+  		<artifactId>org.eclipse.jdt.core</artifactId>
+  		<version>${jdt.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>log4j</groupId>
+  		<artifactId>log4j</artifactId>
+  		<version>${log4j.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-context</artifactId>
+  		<version>${spring.core.version}</version>
+  	</dependency>
+  </dependencies>
+</project>

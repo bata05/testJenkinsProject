@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="blueReportDAO" class="com.ibm.cio.cloud.cost.dao.JdbcBlueReportDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="countryExlusionDAO" class="com.ibm.cio.cloud.cost.dao.JdbcCountryExclusionDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="bmsContractDAO" class="com.ibm.cio.cloud.cost.dao.JdbcBMSContractDAO">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="sscDataDAO" class="com.ibm.cio.cloud.cost.dao.JdbcSSCDataDAO">
+		<property name="dataSource" ref="SPRINTDataSource" />
+	</bean>
+
+</beans>

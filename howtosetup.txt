@@ -1,0 +1,15 @@
+maven.build.timestamp.format
+yyyy-MM-dd'T'HH.mm.ss'Z'
+
+
+db2.driver.version
+10.5.8 
+
+spring.version
+
+
+5.0.2.RELEASE
+
+mvn install:install-file -Dfile=C:\\temp\\db2jcc_license_cu.jar -DgroupId=com.ibm.db2.jcc -DartifactId=db2jcc_license_cu -Dversion=10.5.8 -Dpackaging=jar
+
+mvn install:install-file -Dfile=C:\\temp\\db2jcc.jar -DgroupId=com.ibm.db2.jcc -DartifactId=db2jcc -Dversion=10.5.8 -Dpackaging=jar
