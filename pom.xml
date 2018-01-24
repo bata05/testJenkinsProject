@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ibm.cio.cloud.billing</groupId>
   <artifactId>auto-billrun-checklist</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.${jenkins.buildnum}-SNAPSHOT</version>
   <name>autoprecheck</name>
   <description>This project is for the automation of the Billing Run pre-checklist item</description>
   <properties>
