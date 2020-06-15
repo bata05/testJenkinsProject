@@ -13,7 +13,7 @@
   	<junit.version>4.12</junit.version>
   	<jdt.version>3.7.1</jdt.version>
   	<log4j.version>1.2.14</log4j.version>
-  	<spring.core.version>5.0.2.RELEASE</spring.core.version>
+  	<spring.core.version>5.2.7.RELEASE</spring.core.version>
   </properties>
   <dependencies>
   	<dependency>
