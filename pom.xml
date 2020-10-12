@@ -10,7 +10,7 @@
   	<jdk.version>1.8</jdk.version>
   	<db2.driver.version>10.5.8</db2.driver.version>
   	<spring.version>3.9.2.RELEASE</spring.version>
-  	<junit.version>4.12</junit.version>
+  	<junit.version>4.13.1</junit.version>
   	<jdt.version>3.7.1</jdt.version>
   	<log4j.version>1.2.14</log4j.version>
   	<spring.core.version>5.0.2.RELEASE</spring.core.version>
